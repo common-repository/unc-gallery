@@ -1,0 +1,200 @@
+.dateShown a.ui-state-default {
+    font-weight: bold;
+}
+
+#TB_window {
+    padding-bottom: 20px;
+}
+
+.adminpage h3:before{
+    content:'';
+    display:block;
+    clear: both;
+}
+
+.adminpage h3 {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.adminpage .delete_folder_link {
+    font-size: 0.9em;
+}
+
+#uploadForm label {
+    margin:2px;
+    font-size:1em;
+    font-weight:bold;
+}
+.uploadInputBox{
+    padding:5px;
+    border:#F0F0F0 1px solid;
+    border-radius:4px;
+}
+#progress-bar {
+    background-color: #12CC1A;
+    height:20px;
+    color: #FFFFFF;
+    width:0%;
+    -webkit-transition: width .3s;
+    -moz-transition: width .3s;
+    transition: width .3s;
+}
+#progress-div {
+    border:#444444 2px solid;
+    padding: 5px 0px;
+    margin:30px 0px;
+    border-radius:4px;
+    text-align:center;
+    clear:both;
+}
+#targetLayer{
+    width:100%;
+    text-align:center;
+}
+.image_upload_input {
+    float: left;
+    width: 45%;
+    overflow: auto;
+}
+
+#targetLayer #adminmenumain > div {
+    display: none;
+}
+
+#uploadForm label {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 2px;
+}
+
+#ui-datepicker-div {
+    display:none;
+}
+
+.unc_gallery {
+    overflow:auto;
+    position: relative;
+    padding-top: 5px;
+}
+
+.unc_gallery .photos {
+    padding-top: 5px;
+}
+
+.unc_gallery .one_photo {
+    float:left;
+    /* the position is needed to place the delete-icon on the image */
+    position:relative;
+    margin-right: 6px;
+    margin-bottom: 5px;
+}
+
+.not_shown_overlay {
+    position:absolute;
+    left: 20px;
+    top: 20px;
+    color: white;
+    font-size: 50px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.unc_gallery .featured_photo img {
+    float:left;
+    margin-right: 6px;
+    margin-bottom: 5px;
+}
+
+.unc_gallery .rows_2 img {
+    max-height: 245px;
+    width: auto;
+}
+
+.unc_gallery .rows_3 img {
+    max-height: 370px;
+    width: auto;
+}
+
+.unc_gallery .rows_4 img {
+    max-height: 495px;
+    width: auto;
+}
+
+.unc_gallery .rows_5 img {
+    max-height: 620px;
+    width: auto;
+}
+
+.unc_gallery .limit_rows_2 {
+    max-height: 245px;
+    overflow: hidden;
+}
+
+.unc_gallery .limit_rows_3 {
+    max-height: 370px;
+    overflow: hidden;
+}
+
+.unc_gallery .limit_rows_4 {
+    max-height: 495px;
+    overflow: hidden;
+}
+
+.unc_gallery .limit_rows_5 {
+    max-height: 620px;
+    overflow: hidden;
+}
+
+.unc_gallery .delete_folder_link {
+    position: absolute;
+    text-align:center;
+    right: 0px;
+    top: 5px;
+    width: 80%;
+}
+.unc_gallery .delete_folder_link input {
+    width: 250px;
+}
+
+.one_photo .delete_image_link{
+    display:none;
+}
+
+.one_photo:hover .delete_image_link {
+    display:inline-block;
+}
+
+.unc_gallery .delete_image_link {
+    background-color:transparent;
+    border: 0px;
+    cursor:pointer;
+    padding:0px;
+    text-decoration:none;
+    position: absolute;
+    right: 2px;
+    top:2px;
+}
+
+
+.unc_gallery .delete_image_link:hover {
+    background-color:transparent;
+    color:#00ffff;
+}
+
+.unc_gallery .delete_image_link:active {
+    position:absolute;
+    top:1px;
+}
+
+.unc_fade_in {
+  display: none;
+}
+
+.unc_gallery_error {
+    color: #CE272D;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin: 15px;
+    font-size: large;
+    border: 1px #000 solid;
+}
